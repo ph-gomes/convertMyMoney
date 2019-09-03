@@ -25,7 +25,7 @@ app.get("/cotacao", (req, res) => {
     });
   } else
     res.render("cotacao", {
-      error: "Valores Inválidos"
+      error: "Valores Inválidos."
     });
 });
 
