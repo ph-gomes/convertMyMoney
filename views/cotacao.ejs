@@ -1,0 +1,9 @@
+<%- include('header') %>
+<div class="result">
+  <% if(error){ %>
+    <%= error %>
+  <% } else{ %>
+    <%= quantidade %>$ na cotação <%= cotacao %> é igua à: <%= conversao %>R$
+  <% } %>
+</div>
+<%- include('footer') %>
